@@ -2,7 +2,7 @@
 //const wsbackend = "ws://localhost:8010/ws"
 
 //TODO: make this configurable
-const backend = "https://talesofapirate.com/api"
-const wsbackend = "wss://talesofapirate.com/ws"
+const backend = "https://dnd.thisismy.dev/api"
+const wsbackend = "wss://dnd.thisismy.dev/ws"
 
 export { backend, wsbackend};

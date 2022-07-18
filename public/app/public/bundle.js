@@ -26071,8 +26071,8 @@ var app = (function () {
   //const wsbackend = "ws://localhost:8010/ws"
 
   //TODO: make this configurable
-  const backend = "https://talesofapirate.com/api";
-  const wsbackend = "wss://talesofapirate.com/ws";
+  const backend = "https://dnd.thisismy.dev/api";
+  const wsbackend = "wss://dnd.thisismy.dev/ws";
 
   function createNewCharacter (token, createDTO, cb, errorCb) {
     axios$1
@@ -40826,20 +40826,20 @@ var app = (function () {
   			t5 = space();
   			if (if_block1) if_block1.c();
   			attr_dev(span0, "class", "iconspacing svelte-9qmykt");
-  			add_location(span0, file$x, 168, 14, 4009);
+  			add_location(span0, file$x, 168, 14, 4007);
   			attr_dev(span1, "class", "valign-wrapper italic");
-  			add_location(span1, file$x, 167, 12, 3958);
+  			add_location(span1, file$x, 167, 12, 3956);
   			attr_dev(a, "href", "#");
   			attr_dev(a, "class", "brand-logo svelte-9qmykt");
-  			add_location(a, file$x, 166, 10, 3914);
-  			add_location(li0, file$x, 178, 12, 4241);
-  			add_location(li1, file$x, 211, 12, 5297);
+  			add_location(a, file$x, 166, 10, 3912);
+  			add_location(li0, file$x, 178, 12, 4239);
+  			add_location(li1, file$x, 211, 12, 5295);
   			attr_dev(ul, "class", "right hide-on-small-only");
-  			add_location(ul, file$x, 176, 10, 4190);
+  			add_location(ul, file$x, 176, 10, 4188);
   			attr_dev(div, "class", "nav-wrapper container");
-  			add_location(div, file$x, 165, 8, 3868);
+  			add_location(div, file$x, 165, 8, 3866);
   			attr_dev(nav, "class", "nav-extended svelte-9qmykt");
-  			add_location(nav, file$x, 164, 6, 3785);
+  			add_location(nav, file$x, 164, 6, 3783);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, nav, anchor);
@@ -41029,9 +41029,9 @@ var app = (function () {
   			create_component(playicon.$$.fragment);
   			t = text("\n                  Play");
   			attr_dev(span0, "class", "iconspacing valign-wrapper svelte-9qmykt");
-  			add_location(span0, file$x, 181, 18, 4344);
+  			add_location(span0, file$x, 181, 18, 4342);
   			attr_dev(span1, "class", "valign-wrapper");
-  			add_location(span1, file$x, 180, 16, 4296);
+  			add_location(span1, file$x, 180, 16, 4294);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, span1, anchor);
@@ -41099,8 +41099,8 @@ var app = (function () {
   			t = space();
   			li1 = element("li");
   			create_component(link1.$$.fragment);
-  			add_location(li0, file$x, 190, 14, 4592);
-  			add_location(li1, file$x, 200, 14, 4936);
+  			add_location(li0, file$x, 190, 14, 4590);
+  			add_location(li1, file$x, 200, 14, 4934);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, li0, anchor);
@@ -41156,9 +41156,9 @@ var app = (function () {
   			create_component(usersicon.$$.fragment);
   			t = text("\n                    Top Characters");
   			attr_dev(span0, "class", "iconspacing valign-wrapper svelte-9qmykt");
-  			add_location(span0, file$x, 193, 20, 4701);
+  			add_location(span0, file$x, 193, 20, 4699);
   			attr_dev(span1, "class", "valign-wrapper");
-  			add_location(span1, file$x, 192, 18, 4651);
+  			add_location(span1, file$x, 192, 18, 4649);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, span1, anchor);
@@ -41209,9 +41209,9 @@ var app = (function () {
   			create_component(editicon.$$.fragment);
   			t = text("\n                    Creator");
   			attr_dev(span0, "class", "iconspacing valign-wrapper svelte-9qmykt");
-  			add_location(span0, file$x, 203, 20, 5054);
+  			add_location(span0, file$x, 203, 20, 5052);
   			attr_dev(span1, "class", "valign-wrapper");
-  			add_location(span1, file$x, 202, 18, 5004);
+  			add_location(span1, file$x, 202, 18, 5002);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, span1, anchor);
@@ -41362,9 +41362,9 @@ var app = (function () {
   			}
 
   			attr_dev(ul, "class", "tabs tabs-transparent");
-  			add_location(ul, file$x, 232, 16, 5971);
+  			add_location(ul, file$x, 232, 16, 5969);
   			attr_dev(div, "class", "nav-content container");
-  			add_location(div, file$x, 231, 14, 5919);
+  			add_location(div, file$x, 231, 14, 5917);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, div, anchor);
@@ -41467,9 +41467,9 @@ var app = (function () {
   			}
 
   			attr_dev(ul, "class", "tabs tabs-transparent");
-  			add_location(ul, file$x, 222, 16, 5599);
+  			add_location(ul, file$x, 222, 16, 5597);
   			attr_dev(div, "class", "nav-content");
-  			add_location(div, file$x, 221, 14, 5557);
+  			add_location(div, file$x, 221, 14, 5555);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, div, anchor);
@@ -41597,7 +41597,7 @@ var app = (function () {
   			create_component(link.$$.fragment);
   			t = space();
   			attr_dev(li, "class", "tab");
-  			add_location(li, file$x, 234, 20, 6078);
+  			add_location(li, file$x, 234, 20, 6076);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, li, anchor);
@@ -41693,7 +41693,7 @@ var app = (function () {
   			create_component(link.$$.fragment);
   			t = space();
   			attr_dev(li, "class", "tab");
-  			add_location(li, file$x, 224, 20, 5706);
+  			add_location(li, file$x, 224, 20, 5704);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, li, anchor);
@@ -41838,14 +41838,14 @@ var app = (function () {
   			attr_dev(span, "class", "valign-wrapper italic");
   			set_style(span, "padding", "1em");
   			set_style(span, "float", "left");
-  			add_location(span, file$x, 249, 8, 6471);
+  			add_location(span, file$x, 249, 8, 6469);
   			attr_dev(a, "href", "/");
   			attr_dev(a, "class", "brand-logo svelte-9qmykt");
   			set_style(a, "position", "absolute");
   			set_style(a, "left", "15");
   			set_style(a, "top", "15px");
   			set_style(a, "z-index", "1000");
-  			add_location(a, file$x, 248, 6, 6369);
+  			add_location(a, file$x, 248, 6, 6367);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, a, anchor);
@@ -41890,7 +41890,7 @@ var app = (function () {
   			span = element("span");
   			create_component(bookopenicon.$$.fragment);
   			attr_dev(span, "class", "iconspacing svelte-9qmykt");
-  			add_location(span, file$x, 252, 12, 6581);
+  			add_location(span, file$x, 252, 12, 6579);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, span, anchor);
@@ -41934,7 +41934,7 @@ var app = (function () {
   		c: function create() {
   			main = element("main");
   			create_component(appcontent.$$.fragment);
-  			add_location(main, file$x, 266, 8, 6898);
+  			add_location(main, file$x, 266, 8, 6896);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, main, anchor);
@@ -41978,7 +41978,7 @@ var app = (function () {
   			main = element("main");
   			create_component(appcontent.$$.fragment);
   			attr_dev(main, "class", "container");
-  			add_location(main, file$x, 261, 8, 6809);
+  			add_location(main, file$x, 261, 8, 6807);
   		},
   		m: function mount(target, anchor) {
   			insert_dev(target, main, anchor);
@@ -42250,24 +42250,24 @@ var app = (function () {
   			div = element("div");
   			create_component(router_1.$$.fragment);
   			if (script0.src !== (script0_src_value = "https://cdn.auth0.com/js/auth0/9.0/auth0.min.js")) attr_dev(script0, "src", script0_src_value);
-  			add_location(script0, file$x, 129, 2, 2867);
+  			add_location(script0, file$x, 129, 2, 2865);
   			attr_dev(link0, "rel", "stylesheet");
   			attr_dev(link0, "href", "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
-  			add_location(link0, file$x, 132, 2, 2945);
+  			add_location(link0, file$x, 132, 2, 2943);
   			if (script1.src !== (script1_src_value = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js")) attr_dev(script1, "src", script1_src_value);
-  			add_location(script1, file$x, 136, 2, 3071);
+  			add_location(script1, file$x, 136, 2, 3069);
   			attr_dev(link1, "rel", "stylesheet");
   			attr_dev(link1, "href", "https://fonts.googleapis.com/icon?family=Material+Icons");
-  			add_location(link1, file$x, 140, 2, 3189);
+  			add_location(link1, file$x, 140, 2, 3187);
   			attr_dev(link2, "rel", "stylesheet");
   			attr_dev(link2, "href", "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/styles/atom-one-dark.min.css");
-  			add_location(link2, file$x, 144, 2, 3290);
+  			add_location(link2, file$x, 144, 2, 3288);
   			if (script2.src !== (script2_src_value = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/highlight.min.js")) attr_dev(script2, "src", script2_src_value);
-  			add_location(script2, file$x, 148, 2, 3429);
+  			add_location(script2, file$x, 148, 2, 3427);
   			if (script3.src !== (script3_src_value = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/languages/javascript.min.js")) attr_dev(script3, "src", script3_src_value);
-  			add_location(script3, file$x, 153, 2, 3574);
+  			add_location(script3, file$x, 153, 2, 3572);
   			attr_dev(div, "class", "root default");
-  			add_location(div, file$x, 159, 0, 3715);
+  			add_location(div, file$x, 159, 0, 3713);
   		},
   		l: function claim(nodes) {
   			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -42343,7 +42343,7 @@ var app = (function () {
   	const config = {
   		domain: "owndnd.eu.auth0.com",
   		client_id: "mxcEqTuAUOzrL798mbVTpqFxpGGVp3gI",
-  		audience: "http://talesofapirate.com/dnd/api"
+  		audience: "http://dnd.thisismy.dev/dnd/api"
   	};
 
   	const { isLoading, isAuthenticated, authToken } = createAuth(config);

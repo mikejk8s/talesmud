@@ -1,5 +1,5 @@
 
-@prod=https://talesofapirate.com/dnd
+@prod=https://dnd.thisismy.dev/dnd
 @local=http://localhost:8010
 @host={{local}}
 @token=REPLACE_ME

@@ -37528,7 +37528,7 @@ function instance$z($$self, $$props, $$invalidate) {
 	const config = {
 		domain: "owndnd.eu.auth0.com",
 		client_id: "mxcEqTuAUOzrL798mbVTpqFxpGGVp3gI",
-		audience: "http://talesofapirate.com/dnd/api"
+		audience: "http://dnd.thisismy.dev/dnd/api"
 	};
 
 	const { isAuthenticated, authToken } = createAuth(config);
