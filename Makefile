@@ -13,7 +13,7 @@ run-server:
 	go run cmd/tales/main.go
 
 run-frontend:
-	echo "Starting tales frtontend ..."
+	echo "Starting tales front end ..."
 	cd public/app/ && npm run dev
 
 run: ; ${MAKE} -j4 run-server run-frontend

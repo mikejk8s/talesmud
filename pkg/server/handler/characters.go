@@ -5,11 +5,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/characters"
+	"github.com/mikejk8s/talesmud/pkg/server/dto"
+	"github.com/mikejk8s/talesmud/pkg/service"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/characters"
-	"github.com/talesmud/talesmud/pkg/server/dto"
-	"github.com/talesmud/talesmud/pkg/service"
 )
 
 //CharactersHandler ...

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/mikejk8s/talesmud/pkg/entities/characters"
+	r "github.com/mikejk8s/talesmud/pkg/repository"
+	"github.com/mikejk8s/talesmud/pkg/server/dto"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities/characters"
-	r "github.com/talesmud/talesmud/pkg/repository"
-	"github.com/talesmud/talesmud/pkg/server/dto"
 )
 
 //--- Interface Definitions
@@ -15,7 +15,7 @@ import (
 //CharactersService delives logical functions on top of the charactersheets Repo
 type CharactersService interface {
 	r.CharactersRepository
-	
+
 	IsCharacterNameTaken(name string) bool
 	GetCharacterTemplates() []characters.CharacterTemplate
 

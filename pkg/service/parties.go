@@ -1,10 +1,10 @@
 package service
 
 import (
-	"github.com/talesmud/talesmud/pkg/entities"
-	e "github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/characters"
-	r "github.com/talesmud/talesmud/pkg/repository"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	e "github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/characters"
+	r "github.com/mikejk8s/talesmud/pkg/repository"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

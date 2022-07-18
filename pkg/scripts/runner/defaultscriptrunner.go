@@ -7,14 +7,14 @@ import (
 	"github.com/robertkrimen/otto"
 	_ "github.com/robertkrimen/otto/underscore"
 
+	"github.com/mikejk8s/talesmud/pkg/entities/items"
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/def"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/messages"
+	"github.com/mikejk8s/talesmud/pkg/repository"
+	"github.com/mikejk8s/talesmud/pkg/scripts"
+	"github.com/mikejk8s/talesmud/pkg/service"
 	"github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities/items"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/def"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/messages"
-	"github.com/talesmud/talesmud/pkg/repository"
-	"github.com/talesmud/talesmud/pkg/scripts"
-	"github.com/talesmud/talesmud/pkg/service"
 )
 
 // DefaultScriptRunner ...

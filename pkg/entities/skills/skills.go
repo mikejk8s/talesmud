@@ -1,6 +1,6 @@
 package skills
 
-import "github.com/talesmud/talesmud/pkg/entities"
+import "github.com/mikejk8s/talesmud/pkg/entities"
 
 //Skill ... type
 type Skill struct {

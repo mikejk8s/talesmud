@@ -3,9 +3,9 @@ package service
 import (
 	"time"
 
+	e "github.com/mikejk8s/talesmud/pkg/entities"
+	r "github.com/mikejk8s/talesmud/pkg/repository"
 	"github.com/sirupsen/logrus"
-	e "github.com/talesmud/talesmud/pkg/entities"
-	r "github.com/talesmud/talesmud/pkg/repository"
 )
 
 //UsersService delives logical functions on top of the users Repo

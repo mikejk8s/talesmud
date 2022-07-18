@@ -9,8 +9,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
-	"github.com/talesmud/talesmud/pkg/service"
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
+	"github.com/mikejk8s/talesmud/pkg/service"
 
 	graphviz "github.com/goccy/go-graphviz"
 	"github.com/goccy/go-graphviz/cgraph"

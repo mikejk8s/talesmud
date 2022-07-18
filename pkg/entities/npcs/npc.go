@@ -3,9 +3,9 @@ package npc
 import (
 	"time"
 
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/characters"
-	"github.com/talesmud/talesmud/pkg/entities/traits"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/characters"
+	"github.com/mikejk8s/talesmud/pkg/entities/traits"
 )
 
 //NPC data

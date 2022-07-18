@@ -1,8 +1,8 @@
 package messages
 
 import (
-	e "github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/characters"
+	e "github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/characters"
 )
 
 //UserJoined ... player joined event

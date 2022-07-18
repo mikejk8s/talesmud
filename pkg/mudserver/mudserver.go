@@ -7,13 +7,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/def"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/messages"
+	"github.com/mikejk8s/talesmud/pkg/service"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
-	"github.com/talesmud/talesmud/pkg/mudserver/game"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/def"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/messages"
-	"github.com/talesmud/talesmud/pkg/service"
 )
 
 // MUDServer ... server application connecting the websocket clients with the game instance, providing utility functions etc.

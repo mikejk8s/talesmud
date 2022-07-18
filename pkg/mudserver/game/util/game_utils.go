@@ -1,9 +1,9 @@
 package util
 
 import (
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/def"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/def"
 )
 
 // CreateRoomDescription ...

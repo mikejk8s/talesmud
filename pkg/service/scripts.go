@@ -1,8 +1,8 @@
 package service
 
 import (
-	r "github.com/talesmud/talesmud/pkg/repository"
-	"github.com/talesmud/talesmud/pkg/scripts"
+	r "github.com/mikejk8s/talesmud/pkg/repository"
+	"github.com/mikejk8s/talesmud/pkg/scripts"
 )
 
 //--- Interface Definitions

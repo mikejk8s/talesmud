@@ -1,9 +1,9 @@
 package game
 
 import (
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
 )
 
 func needsUpdate(room *rooms.Room) bool {

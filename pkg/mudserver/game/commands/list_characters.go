@@ -3,8 +3,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/talesmud/talesmud/pkg/mudserver/game/def"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/messages"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/def"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/messages"
 )
 
 // ListCharactersCommand ... foo

@@ -1,7 +1,7 @@
 package characters
 
 import (
-	"github.com/talesmud/talesmud/pkg/entities/items"
+	"github.com/mikejk8s/talesmud/pkg/entities/items"
 )
 
 //Inventory data

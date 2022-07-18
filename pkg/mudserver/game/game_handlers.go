@@ -3,9 +3,9 @@ package game
 import (
 	"time"
 
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/messages"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/messages"
 )
 
 func (game *Game) handleDefaultMessage(message *messages.Message) {
@@ -52,6 +52,7 @@ func (game *Game) handleUserQuit(user *entities.User) {
 		},
 	}
 }
+
 // Find the matching character for the user where the message originated
 func (game *Game) attachCharacterToMessage(msg *messages.Message) {
 

@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/talesmud/talesmud/pkg/db"
-	e "github.com/talesmud/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/db"
+	e "github.com/mikejk8s/talesmud/pkg/entities"
 )
 
 //UsersRepository ...

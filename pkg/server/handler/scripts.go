@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/talesmud/talesmud/pkg/scripts"
-	s "github.com/talesmud/talesmud/pkg/scripts"
-	"github.com/talesmud/talesmud/pkg/service"
+	"github.com/mikejk8s/talesmud/pkg/scripts"
+	s "github.com/mikejk8s/talesmud/pkg/scripts"
+	"github.com/mikejk8s/talesmud/pkg/service"
 )
 
 //ScriptsHandler ...

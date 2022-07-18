@@ -1,8 +1,8 @@
 package game
 
 import (
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/characters"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/characters"
 )
 
 // Avatar ... default active entity that moves in the world

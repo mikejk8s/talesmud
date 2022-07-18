@@ -4,9 +4,9 @@ import (
 	"errors"
 	"strings"
 
+	"github.com/mikejk8s/talesmud/pkg/db"
+	r "github.com/mikejk8s/talesmud/pkg/entities/rooms"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/db"
-	r "github.com/talesmud/talesmud/pkg/entities/rooms"
 )
 
 //--- Interface Definitions

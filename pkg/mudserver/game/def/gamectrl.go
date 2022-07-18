@@ -1,7 +1,7 @@
 package def
 
 import (
-	"github.com/talesmud/talesmud/pkg/service"
+	"github.com/mikejk8s/talesmud/pkg/service"
 )
 
 // GameCtrl def

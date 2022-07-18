@@ -6,9 +6,9 @@ import (
 	log "github.com/sirupsen/logrus"
 
 	"github.com/hoisie/mustache"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/def"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/messages"
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/def"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/messages"
 )
 
 // RoomProcessor ... handles room based commands

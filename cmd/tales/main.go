@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/talesmud/talesmud/pkg/server"
+	"github.com/mikejk8s/talesmud/pkg/server"
 )
 
 func main() {

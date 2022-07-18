@@ -3,8 +3,8 @@ package rooms
 import (
 	"errors"
 
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/traits"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/traits"
 )
 
 // RoomActionType type

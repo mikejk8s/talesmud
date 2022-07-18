@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
+	"github.com/mikejk8s/talesmud/pkg/repository"
+	"github.com/mikejk8s/talesmud/pkg/service"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
-	"github.com/talesmud/talesmud/pkg/repository"
-	"github.com/talesmud/talesmud/pkg/service"
 )
 
 //RoomsHandler ...

@@ -6,12 +6,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/characters"
-	"github.com/talesmud/talesmud/pkg/entities/rooms"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/def"
-	"github.com/talesmud/talesmud/pkg/mudserver/game/messages"
-	m "github.com/talesmud/talesmud/pkg/mudserver/game/messages"
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/characters"
+	"github.com/mikejk8s/talesmud/pkg/entities/rooms"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/def"
+	"github.com/mikejk8s/talesmud/pkg/mudserver/game/messages"
+	m "github.com/mikejk8s/talesmud/pkg/mudserver/game/messages"
 )
 
 // SelectCharacterCommand ... select a character

@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	e "github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/service"
+	e "github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/service"
 )
 
 //UsersHandler ...

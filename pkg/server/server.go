@@ -15,11 +15,11 @@ import (
 
 	"github.com/buger/jsonparser"
 
-	"github.com/talesmud/talesmud/pkg/db"
-	mud "github.com/talesmud/talesmud/pkg/mudserver"
-	"github.com/talesmud/talesmud/pkg/scripts/runner"
-	"github.com/talesmud/talesmud/pkg/server/handler"
-	"github.com/talesmud/talesmud/pkg/service"
+	"github.com/mikejk8s/talesmud/pkg/db"
+	mud "github.com/mikejk8s/talesmud/pkg/mudserver"
+	"github.com/mikejk8s/talesmud/pkg/scripts/runner"
+	"github.com/mikejk8s/talesmud/pkg/server/handler"
+	"github.com/mikejk8s/talesmud/pkg/service"
 
 	"errors"
 
@@ -299,7 +299,7 @@ func (app *app) setupRoutes() {
 		public.GET("item-subtypes", items.GetItemSubTypes)
 
 		public.GET("room-of-the-day", rooms.GetRoomOfTheDay)
-		
+
 	}
 
 	// Start MUD Server

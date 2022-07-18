@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
+	"github.com/mikejk8s/talesmud/pkg/db"
 	log "github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/db"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"gopkg.in/mgo.v2/bson"

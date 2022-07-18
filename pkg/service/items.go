@@ -1,11 +1,11 @@
 package service
 
 import (
+	"github.com/mikejk8s/talesmud/pkg/entities"
+	"github.com/mikejk8s/talesmud/pkg/entities/items"
+	r "github.com/mikejk8s/talesmud/pkg/repository"
+	"github.com/mikejk8s/talesmud/pkg/scripts"
 	"github.com/sirupsen/logrus"
-	"github.com/talesmud/talesmud/pkg/entities"
-	"github.com/talesmud/talesmud/pkg/entities/items"
-	r "github.com/talesmud/talesmud/pkg/repository"
-	"github.com/talesmud/talesmud/pkg/scripts"
 )
 
 //--- Interface Definitions
