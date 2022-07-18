@@ -6,6 +6,8 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=root
       - MONGODB_DATABASE=owndnd
+      - MONGODB_USER=owndnd
+      - USER=owndnd
       - MONGODB_CONNECTION_STRING=mongodb://root:root@owndb:27017/
     ports:
      - "8010:8010"
