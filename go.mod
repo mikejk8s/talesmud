@@ -1,4 +1,4 @@
-module github.com/talesmud/talesmud
+module github.com/mikejk8s/talesmud
 
 go 1.14
 

@@ -3,12 +3,12 @@
 FROM golang
 
 # Copy the local package files to the container's workspace.
-ADD . /go/src/github.com/talesmud/talesmud
+ADD . /go/src/github.com/mikejk8s/talesmud
 
-WORKDIR /go/src/github.com/talesmud/talesmud
+WORKDIR /go/src/github.com/mikejk8s/talesmud
 
 RUN go mod download
-RUN go install github.com/talesmud/talesmud/cmd/tales       
+RUN go install github.com/mikejk8s/talesmud/cmd/tales
 
 # Run the outyet command by default when the container starts.
 ENTRYPOINT /go/bin/tales
