@@ -2,10 +2,16 @@ version: '3'
 services:
   owndnd:
     build: .
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+      - MONGODB_DATABASE=owndnd
+      - MONGODB_CONNECTION_STRING=mongodb://root:root@owndb:27017/
     ports:
      - "8010:8010"
   owndb:
     image: "mongo:latest"
+    restart: always
     environment:
         - MONGO_INITDB_ROOT_USERNAME=root
         - MONGO_INITDB_ROOT_PASSWORD=root

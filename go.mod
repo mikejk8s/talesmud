@@ -16,7 +16,7 @@ require (
 	github.com/joho/godotenv v1.3.0
 	github.com/robertkrimen/otto v0.0.0-20191219234010-c382bd3c16ff
 	github.com/sirupsen/logrus v1.6.0
-	github.com/mikejk8s/talesmud v0.0.0-20201005223649-e366e6a33a75
+	github.com/mikejk8s/talesmud v1.2.3
 	go.mongodb.org/mongo-driver v1.3.4
 	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
 	gopkg.in/mgo.v2 v2.0.0-20160818020120-3f83fa500528

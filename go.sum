@@ -264,6 +264,8 @@ github.com/mattn/go-runewidth v0.0.2/go.mod h1:LwmH8dsx7+W8Uxz3IHJYH5QSwggIsqBzp
 github.com/mattn/go-sqlite3 v1.11.0/go.mod h1:FPy6KqzDD04eiIsT53CuJW3U88zkxoIYsOqkbpncsNc=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
 github.com/miekg/dns v1.0.14/go.mod h1:W1PPwlIAgtquWBMBEV9nkV9Cazfe8ScdGz/Lj7v3Nrg=
+github.com/mikejk8s/talesmud v0.0.0-20201005223649-e366e6a33a75 h1:rkgQY2cKSCbn4DOHg/0Vjsh5UqnFpXXIuWNxH3fUNZ8=
+github.com/mikejk8s/talesmud v0.0.0-20201005223649-e366e6a33a75/go.mod h1:VxmL8uLoS6T9ORIjO117T1JN8YEahIao+co0clQ28Ls=
 github.com/mitchellh/cli v1.0.0/go.mod h1:hNIlj7HEI86fIcpObd7a0FcrxTWetlwJDGcceTlRvqc=
 github.com/mitchellh/go-homedir v1.0.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
 github.com/mitchellh/go-testing-interface v1.0.0/go.mod h1:kRemZodwjscx+RGhAo8eIhFbs2+BFgRtFPeD/KE+zxI=
@@ -372,8 +374,7 @@ github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UV
 github.com/stretchr/testify v1.4.0 h1:2E4SXV/wtOkTonXsotYi4li6zVWxYlZuYNCXe9XRJyk=
 github.com/stretchr/testify v1.4.0/go.mod h1:j7eGeouHqKxXV5pUuKE4zz7dFj8WfuZ+81PSLYec5m4=
 github.com/syndtr/goleveldb v0.0.0-20180621010148-0d5a0ceb10cf/go.mod h1:Z4AUp2Km+PwemOoO/VB5AOx9XSsIItzFjoJlOSiYmn0=
-github.com/mikejk8s/talesmud v0.0.0-20201005223649-e366e6a33a75 h1:rkgQY2cKSCbn4DOHg/0Vjsh5UqnFpXXIuWNxH3fUNZ8=
-github.com/mikejk8s/talesmud v0.0.0-20201005223649-e366e6a33a75/go.mod h1:VxmL8uLoS6T9ORIjO117T1JN8YEahIao+co0clQ28Ls=
+github.com/talesmud/talesmud v0.0.0-20201005223649-e366e6a33a75/go.mod h1:VxmL8uLoS6T9ORIjO117T1JN8YEahIao+co0clQ28Ls=
 github.com/tidwall/pretty v1.0.0 h1:HsD+QiTn7sK6flMKIvNmpqz1qrpP3Ps6jOKIKMooyg4=
 github.com/tidwall/pretty v1.0.0/go.mod h1:XNkn88O1ChpSDQmQeStsy+sBenx6DDtFZJxhVysOjyk=
 github.com/tmc/grpc-websocket-proxy v0.0.0-20170815181823-89b8d40f7ca8/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
