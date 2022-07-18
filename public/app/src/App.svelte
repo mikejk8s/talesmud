@@ -89,8 +89,8 @@
 
   // Auth0 config
   const config = {
-    domain: "owndnd.eu.auth0.com",
-    client_id: "mxcEqTuAUOzrL798mbVTpqFxpGGVp3gI",
+    domain: "dev-ovs18y37.us.auth0.com",
+    client_id: "yQQJ7gYCVZcN4dP70Ru9aTVGuOJRfnVu",
     audience: "http://dnd.thisismy.dev/dnd/api",
   };
 
